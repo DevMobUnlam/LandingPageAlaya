@@ -1,0 +1,323 @@
+:root{
+    /*--main-c:#fdd72d;*/
+    --main-c: #819FFF;
+    --border-r:1.2rem;
+}
+
+/** Estilos generales **/
+
+html *{
+    margin:0;
+    padding:0;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';*/
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.wrap-cta{
+    padding: 1.5rem 0;
+}
+
+.cta-a{
+    color: #fff;
+    font-family: "Fredoka", sans-serif;
+    /*font-weight: bold;*/
+    /*font-size: 1.2rem;*/
+    background-color:var(--main-c);
+    padding: .5rem 1rem;
+    border-radius: var(--border-r);
+}
+
+h1{
+    /*font-family: "Fredoka", sans-serif;*/
+    font-family: "Roboto", sans-serif;
+    font-size: 3.8rem;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2.2rem;
+    /*font-family: "Poppins", sans-serif;*/
+    font-family: "Roboto", sans-serif;
+}
+ 
+/** HEADER **/
+
+.header-menu-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-menu-navegacion li{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    margin-right: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-navegacion a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-menu-navegacion a:hover{
+    color: var(--main-c);
+}
+
+.header-landing{
+    display: flex;
+    justify-content: space-around;
+    background: #fff ;
+    padding: 0.25rem;
+}
+
+.logo-header{
+    max-width: 60px;
+    height: 100%;
+    width: 100%;
+}
+
+/** Hero-section **/
+
+.hero-section{
+    height: 90vh;
+    background: url(img/FondoMitadBlanco\ con\ logo\ editado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-hero-section{
+    max-width: 600px;
+    color: #fff;
+    padding: 15%;
+}
+
+/** Logo brand section **/
+
+.section{
+    margin: 1rem 0;
+}
+
+.section h2{
+    padding: 2rem 0;
+}
+
+.wrap-logos-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-brand{
+    width: 200px;
+    padding: 1rem 2rem;
+    filter: grayscale(1);
+}
+
+/** Wrap title**/
+
+.wrap-title-section{
+    display: flex;
+    justify-content: center;
+    /*margin: 3rem 1rem;*/
+    margin-bottom: 24px;
+}
+
+/** Servicios que ofrecemos**/
+
+.servicios-section{
+   /* background: url(/img/fondoBackGroud.jpg);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 0;
+}
+
+.wrap-servicios-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item-servicios-section{
+    padding: 16px 32px;
+    text-align: center;
+}
+
+.item-servicios-section img{
+    max-width: 300px;
+    max-height: 225px;
+}
+
+.item-servicios-section p{
+    color:#819FFF ;
+    margin: 16px 0;
+}
+
+
+/** TWO COLUMNS SECTION**/
+
+.wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap-img_two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.two-colum-img{
+    width: 100%;
+    max-width: 1200px;
+    max-height: 1500px;
+}
+
+
+.wrap-text-column h3{
+    padding: 2rem 0;
+    justify-content: center;
+}
+
+.wrap-text-column p{
+    padding-bottom: 1rem;
+}
+
+/** Form section**/
+
+section.two-column-section.form{
+    font-family: "Poppins", sans-serif;
+    background-color: #f2f2f2;
+    padding: 3rem 0;
+}
+
+.form input, .form textarea{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    width: 100%;
+    line-height: 1.75rem;
+    border: 1.5px solid #fff;
+    /*border-radius: var(--border-r);*/
+}
+
+.form textarea{
+    min-height: 200px;
+}
+
+input[type="submit"]{
+    border: 0;
+    display: inline;
+    cursor: pointer;
+}
+
+/** Footer **/
+
+.footer-creds p{
+    font-size: 20px;
+}
+
+.footer-section{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu-footer-section{
+    font-family: "Poppins", sans-serif;
+    padding: 1rem 0;
+  }
+  
+  .wrap-social-logos ul, .wrap-menu-footer-section ul{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-logo{
+    max-width: 40px;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .wrap-menu-footer-section ul li{
+    font-size: 1.1rem;
+    padding: 1.5rem;
+  }
+  
+  .footer-creds{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .wrap-two-column{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .wrap-text-column{
+        padding: 1rem;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 16x;
+        text-align: center;
+    }   
+    .wrap-cta{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section{
+        margin: 8px 0;
+    }
+
+    .footer-creds p{
+        font-size: 14px;
+    }
+  }
