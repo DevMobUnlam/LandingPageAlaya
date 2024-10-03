@@ -1,6 +1,6 @@
 :root{
     /*--main-c:#fdd72d;*/
-    --main-c: #819FFF;
+    --main-c: #2E4D83;
     --border-r:1.2rem;
 }
 
@@ -110,7 +110,7 @@ h3{
 
 .wrap-hero-section{
     max-width: 600px;
-    color: black;
+    color: #2E4D83;
     padding: 15%;
 }
 
