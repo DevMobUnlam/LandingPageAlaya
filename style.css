@@ -102,7 +102,7 @@ h3{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-color: rgba(106, 141, 163, 0.7);*/
+    /*background-color: rgba(242, 245, 247, 0.7);*/
     background-blend-mode: multiply;
     display: flex;
     align-items: center;
@@ -112,6 +112,21 @@ h3{
     max-width: 600px;
     color: #2E4D83;
     padding: 15%;
+}
+
+.wrap-hero-section h1{
+    color: white;
+    font-size: 50px;
+}
+
+.wrap-hero-section p{
+    color: black;
+    font-size: 30px;
+}
+
+.wrap-cta-download{
+    padding: 1.5rem 0;
+    font-size: 25px;
 }
 
 /** Logo brand section **/
@@ -175,7 +190,8 @@ h3{
 }
 
 .item-servicios-section p{
-    color:#819FFF ;
+    /*color:#819FFF ;*/
+    color: black;
     margin: 16px 0;
 }
 
@@ -203,6 +219,12 @@ h3{
     max-height: 1500px;
 }
 
+.wrap-text-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
 .wrap-text-column h3{
     padding: 2rem 0;
