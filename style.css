@@ -420,4 +420,7 @@ input[type="submit"]{
         width: 160px;
     }
 
+    .testimonials {
+        flex-wrap: wrap;
+    }
   }
