@@ -1,0 +1,178 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+  overflow-x: hidden;
+  height: 100%;
+  overscroll-behavior-y: none;
+  font-family: "Fredoka", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  padding-top: 80px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  margin: 0;
+}
+
+header img {
+  max-height: 60px;
+  max-width: 60px;
+}
+
+header nav {
+  border-bottom: 1px solid #819eff27;
+}
+
+header nav a:hover {
+  color: #a97ad6 !important;
+}
+
+.al-btn {
+  display: inline-block;
+  background-color: #2e4d83;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.al-btn:hover {
+  background-color: #4569a7;
+}
+
+.al-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  padding: 16px;
+  background: #b5c8ff;
+  background: linear-gradient(
+    90deg,
+    rgba(181, 200, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: 0 4px;
+}
+
+.al-banner h2 {
+  font-size: 24px;
+}
+
+.al-banner img {
+  max-width: 200px;
+}
+
+/** SERVICIOS */
+.sec-servicios {
+  background: rgb(215, 225, 249);
+  background: radial-gradient(
+    circle,
+    rgba(215, 225, 249, 1) 0%,
+    rgba(250, 252, 255, 0.4654236694677871) 60%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.al-servicios img {
+  max-width: 150px;
+  margin-bottom: 8px;
+}
+
+.al-servicios h5 {
+  color: #07577b;
+  margin-bottom: 42px;
+}
+
+/* INNOVAR */
+.al-card {
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #eef3ff;
+  margin: 12px;
+  text-align: center;
+}
+
+.al-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.al-card p {
+  font-size: 20px;
+}
+
+/* CARACTERISTICAS */
+.al-pildora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+  min-height: 120px;
+  width: 300px;
+  background-color: #eef3ff;
+  text-align: center;
+  padding: 16px;
+  margin: 21px;
+}
+
+.al-redes img {
+  width: 46px;
+}
+
+.al-redes ul,
+.al-redes li {
+  text-decoration: none;
+  list-style: none;
+}
+
+@media only screen and (min-width: 960px) {
+  main {
+    padding-top: 90px;
+  }
+
+  .al-banner {
+    margin: 0;
+    padding: 32px;
+  }
+
+  .al-banner img {
+    max-width: 280px;
+  }
+
+  .al-banner h2 {
+    font-size: 46px;
+  }
+
+  /* SERVICIOS */
+  .al-servicios img {
+    max-width: 250px;
+    margin-bottom: 12px;
+  }
+  .al-servicios h5 {
+    margin-bottom: 12px;
+  }
+}

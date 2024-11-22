@@ -1,239 +1,256 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--fuentes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  </head>
 
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alaya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-    <header class="header-landing">
-        <div class="wrap-logo">
-            <img src="/img/logo1.png" alt=""
-            class="logo-header">
-        </div>
-        <div>
-            <ul class="header-menu-navegacion">
-                <li><a href="#id-inicio">Inicio</a>
-                </li>
-                <li><a href="#id-servicios">Servicios</a>
-                </li>
-                <li><a href="#id-Caracteristicas">Características</a>
-                </li>
-                <li><a href="#id-contacto">Contacto</a>
-                </li>
-            </ul>
-        </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: fixed; width: 100%;">
+            <div class="container">
+                <img src="img/logo1.png" alt="Logo Alaya" class="logo-header">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#Inicio">Inicio</a>
+                        <a class="nav-link" href="#Servicios">Servicios</a>
+                        <a class="nav-link" href="#Caracteristicas">Características</a>
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <section id="id-inicio" class="hero-section">
-        <div class="wrap-hero-section">
-            <h1>Alaya</h1>
-            <br>
-            <p><strong>Te ayudamos a conectar con tu paciente en su bienestar emocional.</strong></p>
-            <div class="wrap-cta-download">
-                <a href="#id-Caracteristicas" class="cta-a">Descargar ahora</a>
+    <main>
+
+        <section class="pb-5" id="Inicio">
+            <div class="container">
+                <div class="al-banner shadow row">
+                    <div class="col-md-6">
+                        <h2>Te ayudamos a <strong>conectar</strong> con tu paciente en su <strong>bienestar</strong>
+                            emocional.</h2>
+
+                        <a class="al-btn my-3 d-none d-md-inline-block" href="#">Descargar ahora</a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="img/bannerlogo.png" alt="Logo con titulo">
+                        <a class="al-btn my-3 d-md-none" href="#">Descargar ahora</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!--<section class="section logos-section">
-        <div class="wrap-logos-section">
-            <img src="/img/prototipo2.png" alt="" class="logo-brand">
-        </div>
-    </section>-->
-
-    <section id="id-servicios" class="servicios-section">
-        <div class="wrap-title-section">
-            <h2>Conoce nuestros servicios</h2>
-        </div>
-
-        <div class="wrap-servicios-section">
-            <a href="" class="item-servicios-section">
-                <img src="/img/manejo de crisis.png" alt="">
-                    <p>Actividades personalizadas</p>
-                
-            </a>
-            <a href="" class="item-servicios-section">
-                <img src="/img/registro de crisis.png" alt="">
-                    <p>Registros diarios</p>
-                
-            </a>
-            <a href="" class="item-servicios-section">
-                <img src="/img/ayuda profesional.png" alt="">
-                <p>Perfil del paciente</p>    
-            </a>
-            <a href="" class="item-servicios-section">
-              <img src="/img/path1-2.png" alt="">
-                  <p>Resúmenes semanales</p>
-            </a>
-            <a href="" class="item-servicios-section">
-              <img src="/img/g5.png" alt="">
-                  <p>Tratamientos a medida</p>
-            </a>
-            
-
-        </div>
-
-    </section>
-
-    
-    <section id="testimonios" class="servicios-testimonial">
-
-      <div class="wrap-title-section">
-        <h2>Innovación tecnológica</h2>
-    </div>
-
-      <div class="testimonials">
-        
-        <div class="testimonial">
-            <img src="/img/ialanding.jpg" alt="IA">
-            <p class="name">Inteligencia Artificial</p>
-            <br>
-            <p class="text">Alaya utiliza Inteligencia Artificial para ampliar la forma en que ofrecemos apoyo a todos los pacientes.</p>
-            
-        </div>
+        </section>
 
 
-        <div class="testimonial">
-            <img src="/img/mllanding.jpg" alt="ML">
-            <p class="name">Transformación digital</p>
-            <br>
-            <p class="text">Combina la psicología y la inteligencia artificial para comprender las necesidades emocionales de los usuarios.</p>
-        </div>
-    </div>
+        <section class="py-5 sec-servicios" id="Servicios">
+            <div class="container al-servicios">
 
-    </section>
+                <div class="row text-center">
+                    <div class="col-12">
+                        <img src="img/manejo de crisis.png" alt="Logo x">
+                        <h5>Actividades personalizadas</h5>
+                    </div>
+                </div>
 
-    <section id="id-Caracteristicas" class="section two-column-section">
+                <div class="row py-md-5">
+                    <div class="col-md-4 text-center">
+                        <img src="img/registro de crisis.png" alt="Logo x">
+                        <h5>Registros diarios</h5>
+                    </div>
 
-        <div class="wrap-title-section">
-          <h2>Características de nuestros Servicios</h2>
-        </div>
+                    <div class="col-md-4 text-center">
+                        <img src="img/ayuda profesional.png" alt="Logo x">
+                        <h5>Perfil del paciente</h5>
+                    </div>
 
-        <div class="wrap-two-column">
-            <div class="wrap-text-column-v1">
-              <h3>Perfil profesional</h3>
-              <p>Acompañá a tu paciente.</p>
-              <br>
-              <h3>Tratamiento</h3>
-              <p>Ayudá a superar momentos de crisis y asigná actividades diarias.</p>
-              <h3>Seguimiento</h3>
-              <p>Accedé a su resumen semanal y programá sesiones de manera más eficiente.</p>
+                    <div class="col-md-4 text-center">
+                        <img src="img/path1-2.png" alt="Logo x">
+                        <h5>Resúmenes semanales</h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="img/g5.png" alt="Logo x">
+                        <h5>Tratamientos a medida</h5>
+                    </div>
+                </div>
+
             </div>
-            <div class="wrap-img_two-column">
-              <img class="two-colum-img" src="img/imgprofesional.jpg" alt="">
+        </section>
+
+
+
+        <section class="py-5">
+            <div class="container al-innovacion">
+                <h2 class="fw-bold text-center mb-5">Innovación tecnológica</h2>
+
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="al-card"><img src="img/ialanding.jpg" alt="Logo x">
+                            <h3>Inteligencia Artificial</h3>
+                            <p>Alaya utiliza Inteligencia Artificial para ampliar la forma en que ofrecemos apoyo a
+                                todos
+                                los pacientes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="al-card">
+                            <img src="img/mllanding.jpg" alt="Logo x">
+                            <h3>Transformación digital</h3>
+                            <p>Combina la psicología y la inteligencia artificial para comprender las necesidades
+                                emocionales de los usuarios. </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-    
-          
-        </div>
-    
-        <div class="wrap-two-column">
-          <div class="wrap-img_two-column">
-            <img class="two-colum-img" src="img/PantallaHomeConMarcoLP.png" alt="">
-          </div>
-            <div class="wrap-text-column">
-              <h3>Perfil paciente</h3>
-              <p>Accedé al tratamiento, además podrás recibir recordatorios y notificaciones.</p>
-              <h3>Manejo y registro de crisis</h3>
-              <p>Superá la crisis emocional con el paso a paso asignado por el profesional y registrá toda la información que le sea útil.</p>
-              <h3>Red de contención</h3>
-              <p>Tené a mano a tus personas de apoyo más cercanas en esos momentos de necesidad.</p>
-              <a href="https://appdistribution.firebase.google.com/pub/i/e067ea15b393f7ab" class="item-servicios-section">
-                <img class="img-store-google" src="/img/vecteezy_google-play-button-icons-simple-vector-printed-on-paper_.jpg" alt="">
-            </a>
+        </section>
 
-              <!--<div class="wrap-cta">
-                <a href="/" class="cta-a">Descarga</a>
-              </div>-->
+
+        <section class="py-5" id="Caracteristicas">
+            <div class="container">
+                <h2 class="fw-bold text-center mb-5">Características de nuestros Servicios</h2>
+
+                <article class="row">
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                        <div class="al-pildora">
+                            <h4>Perfil profesional</h4>
+                            <p>Acompañá a tu paciente.</p>
+                        </div>
+
+                        <div class="al-pildora">
+                            <h4>Tratamiento</h4>
+                            <p>Ayudá a superar momentos de crisis y asigná actividades diarias.</p>
+                        </div>
+
+                        <div class="al-pildora">
+                            <h4>Seguimiento</h4>
+                            <p>Accedé a su resumen semanal y programá sesiones de manera más eficiente.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <img src="img/imgprofesional.jpg" alt="">
+                    </div>
+                </article>
+
+                <article class="row mt-5 pt-md-5">
+                    <div class="d-none d-md-flex col-md-6 d-flex justify-content-center align-items-center">
+                        <img src="img/PantallaHomeConMarcoLP.png" alt="">
+                    </div>
+
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                        <div class="al-pildora">
+                            <h4>Perfil paciente</h4>
+                            <p>Accedé al tratamiento, además podrás recibir recordatorios y notificaciones..</p>
+                        </div>
+
+                        <div class="al-pildora">
+                            <h4>Manejo y registro de crisis</h4>
+                            <p>Superá la crisis emocional con el paso a paso asignado por el profesional y registrá toda
+                                la información que le sea útil.</p>
+                        </div>
+
+                        <div class="al-pildora">
+                            <h4>Red de contención</h4>
+                            <p>Tené a mano a tus personas de apoyo más cercanas en esos momentos de necesidad.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-md-none col-md-6 d-flex justify-content-center align-items-center">
+                        <img src="img/PantallaHomeConMarcoLP.png" alt="">
+                    </div>
+                </article>
+
+                <div class="d-block text-center mt-5">
+                    <img style="max-width: 200px;"
+                        src="img/vecteezy_google-play-button-icons-simple-vector-printed-on-paper_.jpg"
+                        alt="Logo Google play">
+                </div>
             </div>
-    
-          
-        </div>
-      </section>
+        </section>
 
-    <section id="id-contacto" class="section two-column-section form">
 
-        <div class="wrap-title-section">
-          <h2>Contactate con nosotros</h2>
-        </div>
-    
-        <div class="wrap-two-column">
-    
-          <div class="wrap-img_two-column">
-            <div class="wrap-text-column">
-              <!--<h3>Contactá con nosotros</h3>-->
-              <form action="procesar_formulario.php" method="post" class="form">
-                <label for="nombre">Nombre:</label>
-                <br>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                <br>
-                
-                <label for="email">Email:</label>
-                <br>
-                <input type="text" name="email" id="email" placeholder="Email">
-                <br>
-                
-                <label for="mensaje">Mensaje:</label>
-                <br>
-                <textarea name="mensaje" id="mensaje" rows="4" cols="40" placeholder="Mensaje" style="resize: none;"></textarea>
-                <br><br>
-                
-                <input type="submit" value="Enviar" class="cta-a">
-              </form>
-    
+        <section class="py-5" style="background-color: #f7f7f7;" id="Contacto">
+            <h2 class="fw-bold text-center mb-5">Contactate con nosotros</h2>
+
+            <article class="d-flex justify-content-center">
+                <div class="w-50">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input type="nombre" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Mensaje</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary px-4">Enviar</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+
+        <section class="py-5">
+            <div class="container al-redes d-flex justify-content-center">
+                <ul class="d-flex gap-4">
+                    <li>
+                        <a href="https://www.instagram.com/alaya.app/?hl=es">
+                            <img src="img/instagram.png" alt="" class="social-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/?locale=es_LA">
+                            <img src="img/facebook.png" alt="" class="social-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://web.whatsapp.com/">
+                            <img src="img/whatsapp.png" alt="" class="social-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/">
+                            <img src="img/linkedin.png" alt="" class="social-logo">
+                        </a>
+                    </li>
+                </ul>
+
+
             </div>
-          </div>
-    
-          <div class="wrap-img_two-column">
-            <img class="two-colum-img" src="img/imgFormulario.jpg" alt="">
-          </div>
-        </div>
-      </section>
-    
-      <footer class="footer-section">
-        <div class="wrap-footer-section">
-          <div class="wrap-social-logos">
-            <ul>
-              <li>
-                <a href="https://www.instagram.com/alaya.app/?hl=es">
-                  <img src="img/instagram.png" alt="" class="social-logo">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/?locale=es_LA">
-                  <img src="img/facebook.png" alt="" class="social-logo">
-                </a>
-              </li>
-              <li>
-                <a href="https://web.whatsapp.com/">
-                  <img src="img/whatsapp.png" alt="" class="social-logo">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/">
-                  <img src="img/linkedin.png" alt="" class="social-logo">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-  
-        <div class="menu-footer-section">
-          <div class="footer-creds">
-            <p>©Copyright 2024 - Alaya.com.ar - Todos los derechos reservados.</p>
-          </div>
-        </div>
-    
-      </footer>
+            <p class="text-center mt-4">©Copyright 2024 - Alaya.com.ar - Todos los derechos reservados.</p>
 
+        </section>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
